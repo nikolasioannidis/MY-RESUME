@@ -1,0 +1,337 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>My resume</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/$RJUDFP6.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %} " rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">About me...</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Education/Work Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">My hobbies/interests</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To My Website!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About me...</h2>
+                    <h3 class="section-subheading text-muted">My name is Nikolaos Ioannidis i was born in 10/11/2001 in Greece. I am an undergraduate student of National and
+                            Kapodistrian University of Athens studying physics.
+                            I am new to computer science but I can say with certainty I love programming and I am
+                            eager to learn new things in this department. The proof of that is that I completed the
+                            CS50x introduction to computer science course form Harvard university on my own,
+                            learning C, Python, SQL, HTML, CSS, JavaScript and Flask and I am currently studying on
+                            CS50w the follow up course focusing on web programming with Python and JavaScript. I
+                            want to learn more on this field and expand my knowledge. I am good at working as a part of a team or as an lonewolf. I am excellent at problem solving and thrive at working under pressure.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+
+                        </span>
+                        <h4 class="my-3">Always Learning</h4>
+                        <p class="text-muted">I am always trying to learn
+                        new thinks and evolve in any type of field I put my mind into.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa fa-battery-full fa-stack-1x fa-inverse"></i>
+                            
+                        </span>
+                        <h4 class="my-3">Hard Work</h4>
+                        <p class="text-muted">No matter how hard a task or a project might be I will try my best and make
+                        sure I succeed.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa fa-heart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Passion</h4>
+                        <p class="text-muted">Despite the fact that I am relatively new to web developent I am sure that that's the path I want to follow and improve on.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">This is the websites I have made.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                
+                                <img class="img-fluid" src="{% static 'assets/img/$RUJVSS2/dnd.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Dndating</div>
+                                <div class="portfolio-caption-subheading text-muted">Meeting Web App</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/$RUJVSS2/erasmus.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Erasmus+</div>
+                                <div class="portfolio-caption-subheading text-muted">Meeting Web App</div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+             </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Education/Work Experience</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'assets/img/$R6Y30GW/English_logo.jpg' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2016</h4>
+                                <h4 class="subheading">Certificate of Proficiency in English</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">I passed my Proficiency in English level C2 exam. This shows the world that I have mastered English to an exceptional level. It proves that I can communicate with the fluency and sophistication of a highly competent English speaker.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'assets/img/$R6Y30GW/ekpa.png' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>05/2020-today</h4>
+                                <h4 class="subheading">National and Kapodistrian University of Athens</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">I am an undergraduate student of National and Kapodistrian University of Athens studying physics.</p></div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'assets/img/$R6Y30GW/mediatel.jpg' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>September 2022</h4>
+                                <h4 class="subheading">Call Center Support Representative 
+                                MEDIATEL SA</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"> I was a call support representative where I helped customers with technical problems regarding their internet, land line, and their tv. I acquired the skill set to solve quickly and
+                            efficiently the problem of every user as well as out of the box thinking.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'assets/img/$R6Y30GW/Harvard.png' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2022</h4>
+                                <h4 class="subheading">Harvard University</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">I took the CS50x introduction to computer science course from Harvard university focusing on C, Python, SQL, HTML, CSS, JavaScript and Flask. This course teaches students how to think
+                            algorithmically and solve problems efficiently.<br/>
+                            <strong>Link to certificate:</strong> <a style="color: blue;"href=" https://cs50.harvard.edu/certificates/01ccde86-eb71-4573-8515-d69a18f2a231.pdf?
+                            size=A4"> Certificate </a>
+                        </p></div>
+                        </div>
+                    </li>
+                    
+                    
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Help Me 
+                                <br />
+                                 Grow This
+                                <br />
+                                Tree!!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">My HOBBIES AND INTERESTS </h2>
+                    <h3 class="section-subheading text-muted">Get to know me. </h3>
+                </div>
+                <div class="center">
+                    
+                    
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="{% static 'assets/img/$RXOUKPS/me.jpg' %}" alt="..." />
+                            <h4>Nikolas Ioannidis (Me)</h4>
+                            <br/>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nikolaos-ioannidis-b9b65a249/" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I like to play chess and once per week we gather with my friends to play board games. I enjoy exploring new fields and I also know a little about video editing(<a style="color: blue;"href=" https://www.youtube.com/channel/UCeT4bQS7adp0KZ61VUBG2Qw">My youtube</a>). </p></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Me</h2>
+                    <h4 style="color: white;">
+                            <i class="fa-regular fa-envelope"></i> ioannds.nick@gmail.com
+                            <br/>
+                           <i class="fa-sharp fa-light fa-phone"></i>  (+30) 6984386516
+                        
+                    </h4>
+                </div> 
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        <!-- Dndating -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/$RF2U8XH.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Dndating</p> 
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/$RUJVSS2/dnd.jpg' %} " alt="..." />
+                                    <p>This is a dnd meeting website where fellow dnd players form their perfect party and go to epic adventures together!!<br/>
+                                    This project was created using Python-based web framework Django. This project is much improved in comparision to the Erasmus+ project but i have still a long way to go.
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Link to Github: </strong>
+                                             <a style="margin-left: 3px; color: blue;"href="https://github.com/nikolasioannidis/Dndating.git"> Github </a><i class="fa-brands fa-github"></i>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Erasmus +-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/$RF2U8XH.svg'%} " alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Erasmus+ Meeting Platform.</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/$RUJVSS2/erasmus.jpg' %}" alt="..." />
+                                    <p>This is my final project for CS50x called Erasmus+ Meeting Platform and its an online platform for people who join the erasmus project to find each other and link up.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Link to Github: </strong>
+                                             <a style="margin-left: 3px; color: blue;"href=" https://github.com/nikolasioannidis/Eramus-Meeting-Platform.git"> Github </a><i class="fa-brands fa-github"></i>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+        <!-- Bootstrap core JS-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+       
+    </body>
+</html>
